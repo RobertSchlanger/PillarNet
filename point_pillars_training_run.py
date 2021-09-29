@@ -12,7 +12,7 @@ from readers import KittiDataReader
 
 tf.get_logger().setLevel("ERROR")
 
-DATA_ROOT = "../training"  # TODO make main arg
+DATA_ROOT = "../../input/clone-kitti/velodyne-point-cloud-dataset/content/VoxelNet/crop_data/training"  # TODO make main arg
 MODEL_ROOT = "./logs"
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
