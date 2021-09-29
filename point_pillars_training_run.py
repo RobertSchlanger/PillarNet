@@ -23,7 +23,7 @@ if __name__ == "__main__":
     params = Parameters()
 
     pillar_net = build_point_pillar_graph(params)
-    pillar_net.load_weights(os.path.join(MODEL_ROOT, "model.h5"))
+    # pillar_net.load_weights(os.path.join(MODEL_ROOT, "model.h5"))
 
     loss = PointPillarNetworkLoss(params)
 
